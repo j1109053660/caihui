@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/partition/partition",
+    "pages/contact/contact",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "搜图工具",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#2d8cf0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/homepage.png",
+        "selectedIconPath": "images/homepage_fill.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/partition/partition",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search_fill.png",
+        "text": "搜索"
+      }
+      
+    
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,6 @@
+<template name="familyItem">
+  <view class="family">
+      <image src="{{address_s}}" bindtap='clickImg' data-url="{{address_l}}"></image>
+      <text>{{uname}}</text>
+    </view>
+</template>

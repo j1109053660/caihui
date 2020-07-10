@@ -1,0 +1,33 @@
+<!--pages/contact/contact.wxml-->
+
+<view class="top">
+    <image src="http://12.s81i.faiusr.com/4/104/AFEIDBAEGAAguIjv0wUoh_LzjgMw7gU4-AJAaA.png" mode="widthFix"></image>
+</view>
+
+<view >
+    <block class="con-in">
+    <view class="content">联系微信</view>
+    <view class="content">ojbk233666666</view>
+    </block>
+
+    <block class="con-in">
+    <view class="content">手机号码</view>
+    <view class="content">19145109087</view>
+    </block>
+
+    <block class="con-in">
+    <view class="content">联系邮箱</view>
+    <view class="content">1109053660@qq.com</view>
+    </block>
+
+    <block class="con-in">
+    <view class="content">联系地址</view>
+    <view class="content">黑龙江省哈尔滨市</view>
+    </block>
+
+</view>
+
+
+<view class="banner">
+<image src="http://12.s81i.faiusr.com/4/104/AFEIDBAEGAAgqIjv0wUoga6yjgIw6gQ48AFAaA.png" mode="widthFix"></image>
+</view>

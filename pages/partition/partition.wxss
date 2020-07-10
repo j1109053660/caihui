@@ -1,0 +1,68 @@
+/* pages/partition/partition.wxss */
+.dept-container {
+	width: 100%;
+}
+
+.dept-container .section {
+	padding: 20rpx 28rpx;
+	box-sizing: border-box;
+	border-bottom: 2rpx solid #ddd;
+}
+
+.dept-container .section input {
+	padding: 0 80rpx;
+	widows: 100%;
+	height: 72rpx;
+	font-size: 36rpx;
+	line-height: 72rpx;
+	background: #f4f4f8;
+	border: 2rpx solid #f4f4f8;
+	border-radius: 22rpx;
+	box-sizing: border-box;
+	text-align: left;
+}
+.searchcion {  
+  margin: 6rpx auto 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 50px;  
+  height: 60px;  
+  text-align: center;  
+}  
+
+
+button{
+	margin: 5rpx 10rpx;
+
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.dibian{
+	padding-bottom: 20rpx;
+	border-bottom: 2rpx solid #ddd;
+}
+
+
+.family {
+  float: left;
+  width:325rpx;height: 420rpx;
+  margin:20rpx;
+  text-align: center;
+  /* Border:1px solid #00f; */
+  
+ 
+}
+.family image {
+  width: 300rpx;height:360rpx;
+  border:1px solid #666666;
+  border-radius: 4px; 
+  /* border-radius: 50%; */
+  box-shadow: 0 0 4px #000;
+}

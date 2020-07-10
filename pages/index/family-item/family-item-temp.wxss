@@ -1,0 +1,22 @@
+/* pages/index/family-item/family-item-temp.wxss */
+
+.family {
+  float: left;
+  width:325rpx;height: 420rpx;
+  margin:20rpx;
+  text-align: center;
+  /* Border:1px solid #00f; */
+  
+ 
+}
+.family image {
+  width: 300rpx;height:360rpx;
+  border:1px solid #666666;
+  border-radius: 4px; 
+  /* border-radius: 50%; */
+  box-shadow: 0 0 4px #000;
+}
+.family text {
+  margin-top:10rpx;
+  font-size: 28rpx;
+}

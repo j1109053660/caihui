@@ -1,0 +1,29 @@
+/* pages/contact/contact.wxss */
+
+
+image{
+  width: 100%;
+}
+.top{
+margin-bottom: 20px;
+}
+
+
+.content{
+  
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding:5px 0 ;
+
+}
+.con-in{
+  width: 100%;height: auto;
+  margin-top:50rpx;
+  padding-top:50rpx;
+}
+
+.banner{
+
+  margin-top: 30px;
+}

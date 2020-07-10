@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<import src="family-item/family-item-temp.wxml"></import> 
+
+<view class="lunbo">
+  <swiper autoplay indicator-dots interval="4000" circular="true" class="lun-con">
+        <swiper-item class="lun-con">
+          <image src="http://image.uuppp.top/img/20200620152604.jpg" mode="scaleToFill"></image>
+        </swiper-item>
+        <swiper-item class="lun-con">
+          <image src="http://image.uuppp.top/img/20200620152357.png" mode="scaleToFill"></image>
+        </swiper-item>
+        <swiper-item class="lun-con">
+          <image src="http://image.uuppp.top/img/20200614121105.jpg" mode="scaleToFill"></image>
+        </swiper-item>
+  </swiper>
+</view>
+
+
+<view>
+  <view class="center">—— 推荐 ——</view>
+  
+  <block wx:for="{{deptsData}}" wx:for-item="item" wx:key="key">
+    <view>
+      <template is="familyItem" data="{{...item}}"></template>
+    </view>
+  </block>
+</view>
+
+
+
+
+
+
+
+
